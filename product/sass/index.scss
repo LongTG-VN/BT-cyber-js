@@ -1,0 +1,42 @@
+header {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        background-color: black;
+        border-color: black;
+    }
+}
+
+.header_2 {
+
+    padding: 5px;
+
+
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+        &:hover {
+            color: blue;
+            transition: all .5s ease;
+        }
+    }
+}
+
+.product {
+    margin: 100px 0px;
+}

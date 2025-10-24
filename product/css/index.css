@@ -1,0 +1,49 @@
+header {
+  background-color: black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header button {
+  background-color: black;
+  border-color: black;
+}
+
+.header_2 {
+  padding: 5px;
+}
+
+.header_2 ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 20px;
+}
+
+.header_2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.header_2 a:hover {
+  color: blue;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.product {
+  margin: 100px 0px;
+}
+/*# sourceMappingURL=index.css.map */
